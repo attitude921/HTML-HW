@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+div {
+  display: block;
+}
+
+.head-area {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.telephone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 195px;
+}
+
+.community {
+  display: block;
+}
+
+.head-area nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 11.5%;
+}
+
+.head-area nav a {
+  margin: 2px;
+}
+
+.Com {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 11px;
+}
+
+.Com:hover {
+  background-color: orange;
+}
+
+.fa-phone {
+  color: orange;
+}
+
+.tel {
+  color: white;
+}
+
+.tel:hover {
+  color: orange;
+}
+
+.top-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  height: 98px;
+}
+
+.logo {
+  padding-left: 100px;
+}
+
+.logo a {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: center;  */
+  text-align: center;
+  margin: 0;
+  color: #535353;
+  font-size: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* padding-left: 100px;             */
+}
+
+.top-area nav a {
+  color: #53535b;
+  font-size: 20px;
+  margin: 25px;
+}
+
+.top-btn {
+  padding-right: 100px;
+}
+
+.top-btn button {
+  border-radius: 2px;
+  border: 2px solid #ff9933;
+  font-size: 12px;
+  padding: 15px 35px;
+  color: #ff9933;
+  background-color: #ffffff;
+}
+
+.top-btn button:hover {
+  color: #fff;
+  background-color: #7abee9;
+  border-color: #7abee9;
+  cursor: pointer;
+}
+
+.animals-need button:hover {
+  background-color: #000;
+  border-color: #000;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 2px;
+  border: 2px solid #ff9933;
+  font-size: 14px;
+  padding: 20px 60px;
+  color: #ffffff;
+  background-color: #ff9933;
+  margin: 30px 0;
+}
+
+button:hover {
+  background-color: #000;
+  border-color: #000;
+  cursor: pointer;
+}
+
+.animals-need {
+  position: relative;
+}
+
+.animals-need img {
+  width: 100%;
+  height: 600px;
+}
+
+.animals-need .content {
+  position: absolute;
+  top: 250px;
+  left: 195px;
+}
+
+h1 {
+  color: #535353;
+  font-size: 65px;
+}
+
+h2 {
+  color: #79bee9;
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+  color: #536353;
+}
+
+.animals-need .content h2 {
+  font-size: 60px;
+}
+
+/* -------------------------- */
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding-top: 85px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+}
+
+.about-us img {
+  width: 75%;
+  margin: auto;
+  padding-left: 165px;
+}
+
+.about-us .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.about-us p {
+  font-size: 15px;
+  color: #536353;
+  margin: 10px 0;
+}
+
+/* --------------------- */
+#how-you-can-help {
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 40px;
+}
+
+.how-you-can-help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.how-you-can-help img {
+  margin: 15px;
+  width: 90%;
+  height: 80%;
+}
+
+.hycl-img {
+  position: relative;
+}
+
+.hycl-img:hover .text {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.596);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.hycl-img .text a:hover {
+  color: #ff9933;
+}
+
+.hycl-img .text {
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 15px;
+  left: 15.5px;
+  font-size: 40px;
+}
+
+.hycl-img .text a {
+  position: absolute;
+  border-radius: 100px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 40px;
+}
+
+.Volunteer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding-top: 85px;
+  padding-bottom: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.Volunteer .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.Volunteer img {
+  width: 70%;
+  margin: auto;
+}
+
+.Volunteer .vol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.vol h1 {
+  padding-right: 100px;
+}
+
+.with img {
+  width: 90%;
+  padding-right: 65px;
+}
+
+.with p {
+  font-size: 15px;
+  color: #536353;
+  margin: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */
